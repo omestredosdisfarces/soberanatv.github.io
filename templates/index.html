@@ -131,8 +131,8 @@
     </div>
     <div class="container form">
       <h3>Entre em contato por e-mail</h3>
-      <!--method="post" corrige o bug de substituir whitespaces pelo caractere "+"-->
-      <form onSubmit="handleSubmitEmail()" id="formulario" action="mailto:{{section.extra.email}}" enctype="text/plain" method="post">
+
+      <form onSubmit="handleSubmitEmail()" id="formulario" action="mailto:{{section.extra.email}}">
         <fieldset>
           <legend>Para:</legend>
           <input type="text" id="email" disabed value="sou.soberana.tv@gmail.com" readonly><br>
