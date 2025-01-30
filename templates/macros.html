@@ -6,7 +6,11 @@
   </div>
   <img src="{{image}}" />
   <div class="description-container">
+    {% if tags | length >=360 %}
+    <p class="mucho-texto">{{tags}}</p>
+    {%else%}
     <p>{{tags}}</p>
+    {% endif %}
   </div>
   <div class="social-buttons">
     {% for pronoun in pronouns %}

@@ -1,8 +1,11 @@
-
-.project-card,
-.creator-card {
+.project-card{
   min-width: calc(300px + 2rem);
   width: calc(300px + 2rem);
+  max-height: fit-content;
+}
+.creator-card {
+  min-width: calc(300px + 1.5rem);
+  width: calc(300px + 1.5rem);
   max-height: fit-content;
 }
 
@@ -21,7 +24,6 @@
   width: 100%;
   height: auto;
   object-fit: cover;
-
   pointer-events: none;
 }
 
@@ -43,6 +45,12 @@
   padding: 1em;
 }
 
+.creator-card .description-container {
+  line-height: 1.5;
+}
+.creator-card .description-container .mucho-texto {
+  font-size: 14px;
+}
 .project-card .social-buttons,
 .creator-card .social-buttons {
   padding: 1em 0.5em;
