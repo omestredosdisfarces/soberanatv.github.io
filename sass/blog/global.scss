@@ -15,11 +15,8 @@
   --color-neutral-800: #22292b;
   --color-neutral-900: #161b1d;
   --color-neutral-950: #090b0c;
-<<<<<<< Updated upstream
-=======
 
   --color-blue-500: #2b7fff;
->>>>>>> Stashed changes
 
   --color-dark: var(--color-neutral-950);
   --color-light: var(--color-neutral-200);
@@ -66,12 +63,9 @@
   --space-xl: clamp(3rem, 2.8466rem + 0.6818vw, 3.375rem);
   --space-2xl: clamp(4rem, 3.7955rem + 0.9091vw, 4.5rem);
   --space-3xl: clamp(6rem, 5.6932rem + 1.3636vw, 6.75rem);
-<<<<<<< Updated upstream
-    /* One-up pairs */
-=======
+  /* One-up pairs */
   /* One-up pairs */
   --space-xs-s: clamp(0.75rem, 0.5966rem + 0.6818vw, 1.125rem);
->>>>>>> Stashed changes
   --space-2xl-3xl: clamp(4rem, 3.25rem + 3.3333vw, 6.75rem);
 
   --wrapper-max-width: 1240px;
@@ -138,12 +132,9 @@ ul,
 ol {
   padding-inline-start: 1em;
 }
-<<<<<<< Updated upstream
-=======
 ul:not([role='list']) > * + * {
   margin-top: var(--space-xs);
 }
->>>>>>> Stashed changes
 
 blockquote {
   padding-inline-start: 1em;
